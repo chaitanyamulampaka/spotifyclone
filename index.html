@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="home-panel">
+        <div class="spotify-icon-container">
+          <div class="spotify-icon"><i class="fa-brands fa-spotify A"></i></div>
+          <div class="spotify-text">&nbsp;Spotify</div>
+        </div>
+        <button id="home-icon-container" onclick="loadContent('home')">
+          <div class="home-icon icon bri"><i class="fa-solid fa-house A "></i></div>
+          <div class="home-text bri">&nbsp;&nbsp;&nbsp;&nbsp;Home</div>
+        </button>
+        <button id="search-icon-container" onclick="loadContent('search')">
+            <div class="search-icon icon "><i class="fa-solid fa-magnifying-glass A"></i></div>
+            <div class="search-text">&nbsp;&nbsp;&nbsp;&nbsp;Search</div>
+        </button>
+        
+    </div>
+    <div class="library-panel">
+        <div class="library-icon ">
+            <div class="lib-icon bri"><i class="fa-solid fa-chart-simple  A"></i></div>
+            <div class="library-text">&nbsp;&nbsp;&nbsp;&nbsp;Your Library</div>
+            <div class="plus-icon bri "><i class="fa-solid fa-plus A"></i></div>
+        </div>
+        <div class="playlist">
+            <div class="create">Create your first playlist</div>
+            <div class="easy">It's easy, we'll help you</div>
+            <div class="play-cre-butt">Create playlist</div>
+            <div class="scroller1 sc">Let's find podcasts to follow</div>
+            <div class="scroller2 sc">We'll keep you updated on new episodes</div>
+            <div class="play-cre-butt pp">Browse podcasts</div>
+
+        </div>
+        <div class="line1"></div>
+        <div class="terms">
+            <ul>
+                <a>Legal</a>
+                <a>Privacy Centre</a>
+                <a>Privacy Policy</a>
+            </ul>
+            <ul>
+                <a>Cookies</a>
+                <a>About Ads</a>
+                <a>Accessibility</a>
+            </ul>
+            <ul>Cookies</ul>
+        </div>
+        <div class="english trans"><i class="fa-solid fa-globe"></i>&nbsp;English</div>
+   
+    </div>
+    <div id="main-panel"></div>
+    <button onclick="goBack()">Go Back</button>
+</body>     
+    <script src="script.js" ></script>
+
+</html>
